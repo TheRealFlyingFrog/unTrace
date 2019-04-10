@@ -7,14 +7,30 @@ The main focus lies, as the name implies, in covering your tracks.
 
 It has some built in exploits for Linux (all the DirtyC0w variants). They are used for privelidge escalation and may not work depending on your Linux Kernel version.
 
-We are working on the following add ons:
+## We are working on the following add ons:
 - Replacing shell scripts with GO functions for portabillity
+
 - Adding easier and more intuitive shell commands
+
 - Adding Enumeration Functions for both Linux and Windows
+
 - More privelidge escalation exploits for both Windows and Linux
+
 - Support for MacOS and Linux (right now only runs on Windows)
+
 - Other exploits to exfiltrate hashes etc..
+
 - persistance settings
+
+## Done so far:
+- Added go-prompt functions
+- added structure
+
+## Next:
+- finish structure
+- add cross platform support
+- run some commands for testing
+- migrate some unTrace functions over(write unTrace package for import)
 
 
 ## Commands
