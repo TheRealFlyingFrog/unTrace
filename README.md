@@ -1,8 +1,21 @@
 # unTrace
+[![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)
 
-[![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
 
-unTrace is a pentester tool. It has built in exploits and useful commands to (for example) cover your traces on a victims system.
+unTrace is a tool for professional Penetration Testers who want to exfiltrate data of a system and cover their tracks.
+The main focus lies, as the name implies, in covering your tracks.
+
+It has some built in exploits for Linux (all the DirtyC0w variants). They are used for privelidge escalation and may not work depending on your Linux Kernel version.
+
+We are working on the following add ons:
+- Replacing shell scripts with GO functions for portabillity
+- Adding easier and more intuitive shell commands
+- Adding Enumeration Functions for both Linux and Windows
+- More privelidge escalation exploits for both Windows and Linux
+- Support for MacOS and Linux (right now only runs on Windows)
+- Other exploits to exfiltrate hashes etc..
+- persistance settings
+
 
 ## Commands
 
